@@ -1,7 +1,9 @@
 @use '../variables'
 @use '../mixins'
+
+ 
     
-.technologies-container
+.technologies-container 
     margin-bottom: 1rem
 
     .technologies-grid
@@ -9,12 +11,14 @@
         flex-wrap: wrap
         gap: 1.5rem
 
+
     .technology-card
         @include mixins.center
+        flex: 2 1 0
         gap: 1rem
         padding: 1rem
         border: 1px solid #333
-        width: 45%
+
         border-radius: variables.$card-border-radius 
 
         h3
@@ -22,6 +26,7 @@
             margin-bottom: 1rem
 
         svg
+            flex-shrink: 0
             font-size: 6rem
 
     #html
