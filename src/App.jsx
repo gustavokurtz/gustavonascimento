@@ -8,7 +8,8 @@ function App() {
   return (
    <div id="portfolio">
     <div id="gustavo">
-      <h1>Gustavo Nascimento</h1>
+        <h1><span>👋 </span> hello, i’m</h1>
+      <h1>GUSTAVO NASCIMENTO</h1>
     </div>
     <Sidebar />
     <MainContent />

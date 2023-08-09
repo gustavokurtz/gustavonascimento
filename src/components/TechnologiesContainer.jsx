@@ -3,15 +3,15 @@ import {
     DiCss3,
     DiJsBadge,
     DiReact,
+    DiNodejs,
   } from "react-icons/di";
   
   import "../styles/components/technologiescontainer.sass";
   
   const technologies = [
-    { id: "html", name: "HTML5", icon: <DiHtml5 /> },
-    { id: "css", name: "CSS3", icon: <DiCss3 /> },
-    { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-    { id: "react", name: "React", icon: <DiReact /> },
+    { id: "node", name: "", icon: <DiNodejs /> },
+    { id: "js", name: "", icon: <DiJsBadge /> },
+    { id: "react", name: "", icon: <DiReact /> },
   ];
   
   const TechnologiesContainer = () => {
