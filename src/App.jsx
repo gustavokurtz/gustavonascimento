@@ -1,8 +1,8 @@
+import AOS from "aos"
 import MainContent from "./components/MainContent"
 import Sidebar from "./components/Sidebar"
 import "aos/dist/aos.css"
-import AOS from "aos"
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 import "./styles/components/app.sass"
 
