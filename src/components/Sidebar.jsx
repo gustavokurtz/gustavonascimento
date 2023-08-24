@@ -11,7 +11,7 @@ import "../styles/components/sidebar.sass"
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="Gustavo Nascimento" />
+      <img data-aos="fade-right" src={Avatar} alt="Gustavo Nascimento" />
       
       <SocialNetworks />
       <InformationContainer />

@@ -11,7 +11,7 @@ const socialNetworks = [
 
 const SocialNetworks = () => {
   return (
-    <section id="social-networks">
+    <section data-aos="fade-down" data-aos-delay="600" id="social-networks">
         {socialNetworks.map((network) => (
             <a href={network.url} className="social-btn" id={network.name} key={network.name}>
                 {network.icon}
