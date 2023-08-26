@@ -4,7 +4,8 @@ import InformationContainer from "./InformationContainer";
 
 import Avatar from "../img/eu.jpg";
 
-import "../styles/components/sidebar.sass"
+
+import "../styles/components/side.css"
 
 
 
