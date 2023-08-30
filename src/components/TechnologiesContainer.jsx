@@ -9,9 +9,9 @@ import {
   import "../styles/components/technologiescontainer.sass";
   
   const technologies = [
-    { id: "node", name: "", icon: <DiNodejs /> },
-    { id: "js", name: "", icon: <DiJsBadge /> },
     { id: "react", name: "", icon: <DiReact /> },
+    { id: "js", name: "", icon: <DiJsBadge /> },
+    { id: "node", name: "", icon: <DiNodejs /> },
   ];
   
   const TechnologiesContainer = () => {
