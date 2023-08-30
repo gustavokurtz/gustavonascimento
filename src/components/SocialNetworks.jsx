@@ -4,7 +4,7 @@ import '../styles/components/socialnetworks.sass'
 
 const socialNetworks = [
     { name: "linkedin", icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/gustavonascimentodlx07/" },
-    { name: "github", icon: <FaGithub />, url: "https://github.com/kurtzfinalboss" },
+    { name: "github", icon: <FaGithub />, url: "https://github.com/gustavokurtz" },
     { name: "instagram", icon: <FaInstagram />, url: "https://www.instagram.com/gustavowwx/" },
 ]
 
