@@ -1,6 +1,4 @@
 import {
-    DiHtml5,
-    DiCss3,
     DiJsBadge,
     DiReact,
     DiNodejs,

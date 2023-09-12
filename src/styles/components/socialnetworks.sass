@@ -11,21 +11,25 @@
         padding: .6em
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
-        color: #333
+        color: #FFf
         font-size: 1.3rem
         @include mixins.center
 
-    #linkedin
-        color:  #FFF
-    #github
-        color: #FFF
+$gradient: linear-gradient(to right)
 
-    #instagram
-        color:  #FFF
+#linkedin, #github, #instagram
+  display: inline-block
+  background: $gradient
+  padding: 10px
+  border-radius: 50%
+  text-align: center
+  transition: transform 0.3s, color 0.3s
 
-    :hover
-        background: variables.$gradient
-        > svg
-            color: variables.$text-color
+  &:hover,
+  &.expanded
+    transform: scale(1.2)
+    color: #FFF
+
+    
 
         
