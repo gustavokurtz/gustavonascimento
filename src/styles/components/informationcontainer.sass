@@ -36,16 +36,31 @@
             width: 2rem
             height: 2rem
             border-radius: variables.$card-border-radius
-
-        .hyperLink 
+        .hyperLink
             text-decoration: none
-            color:  #000
+            color: #000
+            transition: color 0.3s
+            cursor: pointer
 
-        #phone-icon
-            color:  #000
+        .hyperLink:hover
+            color: #616e7ab9
+            border-bottom: 2.5px solid #616e7ab9  // Adicione uma borda horizontal no hover    
 
-        #pin-icon
-            color:  #000
+            
 
-        #email-icon
-            color:  #000
+        // .hyperLink
+        //     // text-decoration: none
+        //     color: #000
+        //     text-decoration-thickness: 1.5px  // Define a espessura da linha de texto
+        //     text-decoration-offset: 0.5em   // Define o deslocamento vertical
+        //     transition: color 0.3s
+        //     cursor: pointer  // Adiciona uma mãozinha ao passar o mouse sobre o link
+
+        // .hyperLink:hover
+        //     color: #616e7ab9
+        //     text-underline-offset: auto
+        //     text-decoration-offset: auto  
+
+
+        #phone-icon, #pin-icon, #email-icon
+            color: #000
