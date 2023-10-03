@@ -2,6 +2,8 @@ import {
     DiJsBadge,
     DiReact,
     DiNodejs,
+    
+    
   } from "react-icons/di";
   
   import "../styles/components/technologiescontainer.sass";
