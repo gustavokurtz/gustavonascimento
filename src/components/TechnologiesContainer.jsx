@@ -4,6 +4,7 @@ import {
     DiNodejs,
     
     
+    
   } from "react-icons/di";
   
   import "../styles/components/technologiescontainer.sass";
@@ -24,7 +25,7 @@ import {
               {tech.icon}
               <div className="technology-info">
                 <h3>{tech.name}</h3>
-              
+                 
               </div>
             </div>
           ))}
